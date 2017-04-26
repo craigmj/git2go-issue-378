@@ -3,7 +3,7 @@ set -e
 sudo apt-get install -y cmake
 cd /usr/local/
 if [[ ! -d libgit2 ]]; then
-	git clone https://github.com/libgit2/libgit2.git
+	sudo git clone -b maint/v0.25 https://github.com/libgit2/libgit2.git
 fi
 cd libgit2
 sudo chown -R $USER:$USER .

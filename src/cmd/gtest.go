@@ -3,8 +3,9 @@ package main
 import (
 	"fmt"
 	"log"
+	"os"
 
-	git2go "gopkg.in/libgit2/git2go.v25/"
+	git2go "gopkg.in/libgit2/git2go.v25"
 )
 
 func main() {
